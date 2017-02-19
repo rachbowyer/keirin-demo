@@ -6,7 +6,7 @@ elements in the vector which is constructed. However, in practice the behaviour 
 from the graph below.
 
 
-![Graph showing points roughly linear ](https://github.com/rachbowyer/keirin-demo/blob/master/vec-performance-example.svg)
+![Graph showing points roughly linear ](https://github.com/rachbowyer/keirin-demo/blob/master/vec-performance.png)
 
 The x-axis shows the number of elements in the vector and the y-axis shows the time to run **vec** in milliseconds. The 
 graph is generated using Keirin and the graphing library Analemma
