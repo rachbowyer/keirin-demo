@@ -27,7 +27,7 @@ Then the example should be downloaded, built and run as follows:
      git clone https://github.com/rachbowyer/keirin-demo.git
      cd keirin-demo
      lein uberjar
-     ./run
+     ./run.sh
 
 And it outputs the graph "vec-performance.svg".
 
