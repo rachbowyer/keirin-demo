@@ -8,7 +8,7 @@
 
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [analemma "1.0.0-SNAPSHOT"]
-                 [keirin "1.0.0"]]
+                 [keirin "1.1.0"]]
 
   :main ^:skip-aot keirin-demo.core
   :target-path "target/%s"
