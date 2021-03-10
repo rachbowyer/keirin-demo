@@ -13,3 +13,6 @@ pom.xml.asc
 .idea
 *.iml
 gc.out
+gc.out.*
+vec-performance.svg
+.eastwood
