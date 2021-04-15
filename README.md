@@ -1,15 +1,14 @@
 # keirin-demo
 
 
-The Clojure function ["vec"](https://clojuredocs.org/clojure.core/vec) is O(n log n) in time where n is the number of 
-elements in the vector which is constructed. However, in practice the behaviour of **vec** is linear as can be seen
+The Clojure function ["vec"](https://clojuredocs.org/clojure.core/vec) is O(n log n) in time, when constructing a 
+vector of n elements. However, in practice the behaviour of **vec** is linear as can be seen
 from the graph below.
 
 
-![Graph showing points roughly linear ](https://github.com/rachbowyer/keirin-demo/blob/master/vec-performance.png)
+![Graph showing points linear](https://static.wixstatic.com/media/3466eb_2285dfe216a54ec38809abe11ccf0a5d~mv2.png/v1/fill/w_540,h_298,al_c,q_85,usm_0.66_1.00_0.01/Vec%20-%20Keirin1.webp)
 
-The x-axis shows the number of elements in the vector and the y-axis shows the time to run **vec** in milliseconds. The 
-graph is generated using Keirin and the graphing library Analemma
+The graph was generated using Keirin and the graphing library Analemma
 
 
 ## Building and running the example
@@ -35,4 +34,4 @@ And it outputs the graph "vec-performance.svg".
 
 ## License
 
-Distributed under the Eclipse Public License either version 1.0.
+Distributed under the Eclipse Public License version 1.0.

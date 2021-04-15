@@ -1,6 +1,6 @@
-(defproject keirin-demo "0.1.1"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject keirin-demo "0.1.2"
+  :description "Demonstration on how to use Keirin"
+  :url "https://github.com/rachbowyer/keirin-demo"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
@@ -8,7 +8,7 @@
 
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [analemma "1.1.0"]
-                 [rachbowyer/keirin "1.1.1"]]
+                 [rachbowyer/keirin "1.1.2"]]
 
   :main ^:skip-aot keirin-demo.core
   :target-path "target/%s"
